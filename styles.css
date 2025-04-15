@@ -23,6 +23,17 @@ body {
 	margin: 0px;
 }
 .postcard-body {
-	display:flex;
-	
+	display: flex;
+	font-size: medium;
+}
+.body-left p:first-child {
+	margin-top: 0px;
+}
+.body-left,
+.body-right {
+	padding: 5px;
+}
+input {
+	border: none;
+	border-bottom: grey;
 }
